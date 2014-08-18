@@ -23,6 +23,7 @@ Type `y` and enter the directory to the sh script which starts the server when p
 `Where would you like Bukkit to be installed? /home/foo/bar`
 
 (enter your prefered directory)
+
 `All done! Start the Bukkit server with bkstart, stop it with bkstop and view the Bukkit shell with bkview. Have fun!`
 
 If the installer isn't broken (shout at me if it is), then this should be it.
