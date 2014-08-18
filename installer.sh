@@ -5,15 +5,18 @@
 # (c) AJ Salkeld 2014
 #
 
-read -p "Do you have a Bukkit install already? (y/n)" bukkitinstallyn
+echo "Do you have a Bukkit install already? (y/n)"
+read bukkitinstallyn
 
 if [ "$bukkitinstallyn" == "y" ] || [ "$bukkitinstallyn" == "Y" ] ; then
-  read -p "Where is the start.sh/launch.sh for your Bukkit install?" bukkitDir
+  echo "Where is the start.sh/launch.sh for your Bukkit install?"
+  read bukkitDir
   echo "Setting up..."
   sed -i "12i bukkitDir=$bukkitDir" bkstart.sh
 fi
 if [ "$bukkitinstallyn" == "n" ] || [ "$bukkitinstallyn" == "N" ] ; then
-  read -p "Where would you like Bukkit to be installed?" bukkitInstallDir
+  echo "Where would you like Bukkit to be installed?"
+  read bukkitInstallDir
   echo "Installing latest recommended build..."
   mkdir $bukkitInstallDir
   wget -P $bukkitInstallDir https://dl.bukkit.org/latest-rb/craftbukkit.jar
