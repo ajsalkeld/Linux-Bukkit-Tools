@@ -3,7 +3,7 @@ Linux Bukkit Tools
 Mostly tested now.
 Tell me of any issues.
 
-Linux Bukkit Tools is a few Linux terminal commands for managing a Bukkit server. It doesn't do much other than start the server, stop it and view the shell. It runs Bukkit in the background, and will install the latest recommended build of Craftbukkit if you 
+Linux Bukkit Tools is a few Linux terminal commands for managing a Bukkit server. It doesn't do much other than start the server, stop it and view the shell. It runs Bukkit in the background, and will install the latest recommended build of Craftbukkit if you need it.
 
 Install
 ----------
