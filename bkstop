@@ -10,7 +10,7 @@
 OPTIND=1 
 
 while getopts "f" opt; do
-    if [ "$opt" == "f" ] then
+    if [ "$opt" == "f" ] ; then
         echo "Forcing session to close..."
         screen -X -S bukkit quit
         echo "Done."
@@ -25,4 +25,5 @@ while getopts "f" opt; do
         echo "Done."
         exit
     fi
+done
 exit
