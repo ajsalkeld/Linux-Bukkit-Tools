@@ -8,13 +8,13 @@
 echo "Do you have a Bukkit install already? (y/n)"
 read bukkitinstallyn
 
-if [[ $bukkitinstallyn == y ]] ; then
+if [ $bukkitinstallyn == y ] ; then
   echo "Where is the start.sh/launch.sh for your Bukkit install?"
   read bukkitDir
   echo "Setting up..."
   sed -i "12i bukkitDir=$bukkitDir" bkstart.sh
 fi
-if [[ $bukkitinstallyn == n ]] ; then
+if [ $bukkitinstallyn == n ] ; then
   echo "Where would you like Bukkit to be installed?"
   read bukkitInstallDir
   echo "Installing latest recommended build..."
