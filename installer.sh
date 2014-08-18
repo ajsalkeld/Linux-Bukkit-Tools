@@ -11,6 +11,7 @@ if [ "$bukkitinstallyn" == "y" ] || [ "$bukkitinstallyn" == "Y" ] ; then
   read -p "Where is the start.sh/launch.sh for your Bukkit install?" bukkitDir
   echo "Setting up..."
   sed -i "12i bukkitDir=$bukkitDir" bkstart.sh
+fi
 if [ "$bukkitinstallyn" == "n" ] || [ "$bukkitinstallyn" == "N" ] ; then
   read -p "Where would you like Bukkit to be installed?" bukkitInstallDir
   echo "Installing latest recommended build..."
