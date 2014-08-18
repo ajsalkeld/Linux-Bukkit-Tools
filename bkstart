@@ -1,0 +1,20 @@
+#!/bin/bash
+# Start Bukkit server
+#
+# Part of Linux Bukkit Tools
+#
+# Use at own risk
+# 
+# (c) AJ Salkeld
+
+echo "Starting server..."
+
+
+
+
+if ! screen -list | grep -q "bukkit"; then
+  echo "Bukkit is alreay running! Force stop it with bkstop -f"
+  exit
+fi
+
+screen -S bukkit sh $bukkitDir
