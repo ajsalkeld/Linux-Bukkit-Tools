@@ -18,4 +18,5 @@ while true; do
     [Nn]* ) exit;;
     * ) echo "Please answer y or n.";;
   esac
+done
 exit
