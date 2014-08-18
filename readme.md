@@ -1,6 +1,7 @@
-Linux Bukkit Tools is not tested yet!
+Linux Bukkit Tools
 =====================================
-I've written the code, but have not tested it yet. I'll confirm if it works or not later.
+Tested with vaguely flying colours!
+Tell me of any issues.
 
 Install
 ----------
