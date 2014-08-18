@@ -9,7 +9,7 @@
 
 echo "Entering screen..."
 echo "Exit by first pressing ctrl + a, then d."
-sleep 5
+sleep 3
 
 screen -r bukkit
 
