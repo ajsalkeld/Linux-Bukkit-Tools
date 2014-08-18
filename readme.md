@@ -10,6 +10,10 @@ Download and unpack
 
 `unzip master.zip`
 
+Enter directory
+
+`cd Linux-Bukkit-Tools-master`
+
 Run the installer
 
 `sudo sh install.sh`
