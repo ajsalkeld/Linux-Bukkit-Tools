@@ -13,7 +13,9 @@ Download and unpack
 Run the installer
 
 `sudo sh install.sh`
+
 `Do you wish to install this program? (y/n) y`
+
 `Do you have a Bukkit install already? `
 
 Type `y` and enter the directory to the sh script which starts the server when prompted if you do. If you don't, type `n`.
