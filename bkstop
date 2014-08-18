@@ -16,7 +16,7 @@ while getopts "f" opt; do
         echo "Done."
         exit
     fi
-    if [ "$opt" == "" ]
+    if [ "$opt" == "" ] ; then
         echo "Asking Bukkit to close..."
         screen -S bukkit -p 0 -X stuff 'stop^M'
         echo "Waiting 15 seconds..."
