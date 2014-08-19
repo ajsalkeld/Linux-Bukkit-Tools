@@ -38,10 +38,10 @@ case $bukkitinstallyn in
     mv bkstart /usr/bin ;
     mv bkstop /usr/bin ;
     mv bkview /usr/bin ;
-    echo "All done! Start the Bukkit server with bkstart, stop it with bkstop and view the Bukkit shell with bkview. Have fun!" ;;
-    chmod +x /usr/bin/bkstart
-    chmod +x /usr/bin/bkview
-    chmod +x /usr/bin/bkstop
+    echo "All done! Start the Bukkit server with bkstart, stop it with bkstop and view the Bukkit shell with bkview. Have fun!" ;
+    chmod +x /usr/bin/bkstart ;
+    chmod +x /usr/bin/bkview ;
+    chmod +x /usr/bin/bkstop ;;
   n|N)
     echo "Where would you like Bukkit to be installed?" ;
     read bukkitInstallDir ;
