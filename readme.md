@@ -11,9 +11,15 @@ Install
 ----------
 Download and unpack
 
-`wget https://github.com/Salkey/Linux-Bukkit-Tools/archive/master.zip`
+`wget https://github.com/AJSpw/Linux-Bukkit-Tools/archive/master.zip`
 
 `unzip master.zip`
+
+OR
+
+Clone in Git
+
+`git clone https://github.com/AJSpw/Linux-Bukkit-Tools.git`
 
 Enter directory
 
